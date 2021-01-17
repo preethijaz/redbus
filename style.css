@@ -1,0 +1,63 @@
+body {
+  margin: 0%;
+  font-family: Montserrat;
+  background-image: url("redbus background.png");
+}
+.content {
+  font-size: 13px;
+  padding: 8px;
+}
+.c1:hover {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 40px;
+}
+
+.c2 {
+  padding-top: 2px;
+}
+.Header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 6px;
+  margin: auto;
+  line-height: 0;
+  letter-spacing: 0.2px;
+}
+header {
+  background-color: #d84f57;
+  color: #efeeee;
+  width: 100%;
+  margin: 0 auto;
+  height: 60px;
+}
+/* .wrapper {
+  padding: 100px;
+}
+.image--cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+  object-position: center right;
+} */
+/* .logo {
+  background-image: url("logo.png");
+  margin-top: -4px;
+} */
+.logo {
+  margin-left: 20px;
+}
+.Header-left {
+  display: flex;
+  align-items: center;
+}
+.Header-right {
+  display: flex;
+  align-items: center;
+}
