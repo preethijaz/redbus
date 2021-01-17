@@ -5,6 +5,7 @@
     <title>Book bus travels</title>
     <link rel="stylesheet" href="style.css" />
     <!-- <link href="../../../favicon.ico" rel="shortcut icon" /> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,6 +14,11 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script
+      src="https://kit.fontawesome.com/357fdeff97.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -65,5 +71,63 @@
         </div>
       </div>
     </header>
+    <div class="search">
+      <section class="search-bar">
+        <div class="search-wrap">
+          <div class="search-box">
+            <span
+              class="far fa-building"
+              style="
+                font-size: 24px;
+                color: gray;
+                margin-left: 4px;
+                line-height: 2;
+              "
+            ></span>
+            <div>
+              <label class="search-label">From</label>
+              <input type="text" class="input-box" />
+            </div>
+          </div>
+
+          <div class="search-box">
+            <i class="fas fa-arrows-alt-h arrow"></i>
+            <i
+              class="far fa-building"
+              style="
+                font-size: 24px;
+                color: gray;
+                margin-left: 6px;
+                line-height: 2;
+              "
+            ></i>
+            <div>
+              <label class="search-label">To</label>
+              <input type="text" class="input-box" />
+            </div>
+          </div>
+
+          <div class="search-box">
+            <i
+              class="far fa-calendar"
+              style="
+                font-size: 24px;
+                color: gray;
+                line-height: 2;
+                margin-left: 6px;
+              "
+            ></i>
+            <div>
+              <label class="search-label">Date</label>
+              <input type="date" class="input-box" />
+            </div>
+          </div>
+
+          <div class="search-box" style="background-color: #d84e55">
+            <button class="search-btn">Search Buses</button>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

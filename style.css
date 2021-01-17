@@ -2,6 +2,7 @@ body {
   margin: 0%;
   font-family: Montserrat;
   background-image: url("redbus background.png");
+  /* box-sizing: border-box; */
 }
 .content {
   font-size: 13px;
@@ -13,9 +14,66 @@ body {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   border-bottom: 3px solid #fff;
-  padding-bottom: 40px;
+  padding: 24px 0px;
 }
 
+.search {
+  position: absolute;
+  bottom: 352px;
+  width: 100%;
+  /* box-sizing: border-box; */
+}
+.search-wrap {
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+  z-index: 5;
+  /* float: left; */
+}
+.search-box {
+  width: 221px;
+  border: 1px solid #d2d2d2;
+  height: 44px;
+  background-color: #fff;
+  position: relative;
+  border-color: rgb(210, 210, 210);
+}
+/* .arrow1 {
+  position: absolute;
+  top: 11px;
+  left: 211px;
+} */
+.arrow {
+  position: absolute;
+  top: 15px;
+  left: -10px;
+}
+.search-label {
+  left: 15%;
+  position: absolute;
+  bottom: 0;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 15px;
+  top: 12%;
+  font-size: 10px;
+  color: #9b9b9b;
+  font-weight: 100;
+}
+.search-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 972px;
+  margin-top: 30px;
+  text-align: center;
+  margin: 0 auto; */
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .c2 {
   padding-top: 2px;
 }
@@ -52,6 +110,25 @@ header {
 } */
 .logo {
   margin-left: 20px;
+}
+.input-box {
+  /* padding-left: 33px; */
+  margin-top: -26px;
+  margin-left: 36px;
+  border: none;
+}
+
+.search-btn {
+  border: none;
+  height: 44px;
+  width: 222px;
+  text-align: center;
+  border-width: 0;
+  padding: 6px 16px 7px;
+  background-color: #d74f57;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
 }
 .Header-left {
   display: flex;
